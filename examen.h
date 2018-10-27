@@ -5,21 +5,15 @@
  */
 
 /* 
- * File:   main.c
+ * File:   examen.h
  * Author: sistemas2018
  *
- * Created on October 27, 2018, 8:46 AM
+ * Created on October 27, 2018, 8:52 AM
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <examen.h>
-/*
- * 
- */
-int main(int argc, char** argv) {
+#ifndef EXAMEN_H
+#define EXAMEN_H
 
-    
-    return (EXIT_SUCCESS);
-}
-
+#endif /* EXAMEN_H */
+void hiloAleatorio();
+void procesosFork(int,int,int);

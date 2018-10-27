@@ -5,21 +5,23 @@
  */
 
 /* 
- * File:   main.c
+ * File:   newmain.cpp
  * Author: sistemas2018
  *
- * Created on October 27, 2018, 8:46 AM
+ * Created on October 27, 2018, 9:31 AM
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <examen.h>
+#include <cstdlib>
+#include "examen.h"
+
+using namespace std;
+
 /*
  * 
  */
 int main(int argc, char** argv) {
-
-    
-    return (EXIT_SUCCESS);
+//    hiloAleatorio();
+    procesosFork(1, 2, 3); 
+    return 0;
 }
 
